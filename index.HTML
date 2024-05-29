@@ -8,24 +8,30 @@
         <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        <nav>
-            <h1>Nareli Mezcal Artesanal</h1>
-        <div class="little">
-            <a href="#tomar">Nosotros</a>
-            <a href="#diferencias">Historia de la marca</a>
-            <a href="#plantas">Nuestro Proposito</a>
-            <a href="#produccion">Proceso de Produccion</a>
-            <a href="#variedad">Nuestros Mezcales</a>
-            <a href="#contacto">Contacto</a>
-        </div>
-        </nav>
+        <header>
+            <nav>
+                <h1>Nareli Mezcal Artesanal</h1>
+                <ul class="little">
+                    <li><a href="#tomar">Nosotros</a></li>
+                    <li><a href="#plantas">Nuestro Proposito</a></li>
+                    <li><a href="#produccion">Proceso de Produccion</a></li>
+                    <li><a href="#variedad">Nuestros Mezcales</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
         <!--imagen principal de la pagina-->
-        <div class="main">
-                <h2 id="tomar">Nosotros</h2>
-        </div>
-        <div class="main-img">
+        <div class="contenedor">
             <img src="imagenes/IMG_0651.jpg" alt="">
+            <div class="texto-encima">
+                <h2 id="tomar"></h2>
+            </div>
+            <div class="centrado">
+                <h1 id="tomar">NOSOTROS</h1>
+            </div>
         </div>
+       
         <!--nueva seccion--> 
         <div class="content" >
             <H2 id="diferencia">Historia de la marca</H2>
@@ -53,15 +59,15 @@
                 y clientes. Buscamos crear oportunidades equitativas para todos los miembros de nuestra comunidad, fomentando un ambiente de respeto mutuo y colaboración.En NARELI Mezcal, nuestro compromiso va más allá de la producción de mezcal. Estamos dedicados a construir un negocio que refleje nuestros valores de sostenibilidad, apoyo comunitario <br>
                 y equidad. Juntos, trabajamos hacia un futuro más próspero y sostenible para todos.
             </p>
-        <div class="options">
-                <img src="imagenes/IMG_2658.jpg" alt="">
-                <img src="imagenes/IMG_3032.jpg" alt="">
-        </div>      
+            <!-- <div class="options">
+                    <img src="imagenes/IMG_2658.jpg" alt="">
+                    <img src="imagenes/IMG_3032.jpg" alt="">
+            </div>       -->
         </div>   
         <!--nueva seccion-->
         <div class="production">
             <h2 id="produccion">Proceso de Produccion</h2>
-            <div class="left">
+            <div class="siembra">
                 <h3>SIEMBRA</h3>
                 <p>
                     Se elige cuidadosamente el lugar donde se sembrarán los agaves espadín. Este lugar debe tener las condiciones adecuadas de suelo y clima para el crecimiento óptimo de la planta.<br>
@@ -76,7 +82,7 @@
                 </p>
                 <img src="imagenes/IMG_3032.jpg" alt="">
             </div>
-            <div class="rigth">
+            <div class="jima">
                 <h3>JIMA</h3>
                 <p>
                 Pasan entre 6 y 8 años para poder cosechar nuestros agaves. Una vez listos, los jimadores se encargan de extraerlos y quitarles las pencas <br>
@@ -84,7 +90,7 @@
                 </p>
                 <img src="imagenes/IMG_2658.jpg" alt="">
             </div>
-            <div class="left">
+            <div class="coccion">
                 <h3>COCCIÓN</h3>
                 <P>
                 En este punto nos encargamos de que la cocción se realice únicamente en hornos cónicos de piedra. Las piñas son colocadas bajo tierra con una  base de leña y piedras <BR>
@@ -101,7 +107,7 @@
                 </P>
                 <img src="imagenes/IMG_9668.jpg" alt="">
             </div>
-            <div class="left">
+            <div class="fermentacion">
                 <h3>FERMENTACIÓN</h3>
                 <P>
                 Una vez triturado el agave, ocurre la fermentación en tinas de madera de pino al aire libre. Gracias a bacterias y principalmente levaduras, que se alimentan de las mieles del agave, se nivela la acidez, dulzura<BR>
@@ -110,7 +116,7 @@
                 <img src="imagenes/IMG_3241.jpg" alt="">
                 <img src="imagenes/IMG_0226.png" alt="">
             </div>
-            <div class="rigth">
+            <div class="destilacion">
                 <h3>DESTILACIÓN</h3>
                 <P>
                 Finalmente, hacemos una destilación doble en alambique de cobre para así obtener el líquido que con todas las letras puede llamarse MEZCAL ARTESANAL.
@@ -119,7 +125,7 @@
                 <img src="imagenes/IMG_0422.jpg" alt="">
                 <img src="imagenes/IMG_3111.jpg" alt="">
             </div>
-            <div class="left">
+            <div class="envasado">
                     <h3>ENVASADO</h3>
                     <p>
                     Ahí termina la labor de los maestros mezcaleros, el mezcal artesanal pasa a la planta de envasado, en donde nos cercioramos de tener el tono justo que caracteriza a cada una de nuestras etiquetas. Una vez con el balance correcto finalizamos con un cuidadoso proceso etiquetando a mano botella por botella.
